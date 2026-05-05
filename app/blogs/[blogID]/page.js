@@ -1,4 +1,4 @@
 export default async function Blog({ params }) {
   const { blogID } = await params;
-  return <div>Blog {blogID}</div>;
+  return <div>All comments for Blog {blogID}</div>;
 }

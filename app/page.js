@@ -11,6 +11,9 @@ export default function Home() {
         <Link href="/about">About</Link>
       </p>{" "}
       <p>
+        <Link href="/files">file</Link>
+      </p>{" "}
+      <p>
         <Link href="/services">Services</Link>
       </p>
     </>
