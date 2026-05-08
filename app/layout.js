@@ -1,16 +1,12 @@
-export const metadata = {
-  title:{
-    template:"%s | Technical Agency",
-    default:"Technical Agency",
-  },
-};
+import Link from "next/link";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <header style={{ backgroundColor: "#f0f0f0", padding: "1rem" }}>Header</header>
-      <body>{children}</body>
-      <footer style={{ backgroundColor: "#f0f0f0", padding: "1rem" }}>Footer</footer>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
